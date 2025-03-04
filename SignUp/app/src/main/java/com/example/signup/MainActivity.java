@@ -1,6 +1,8 @@
 package com.example.signup;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,11 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        Button signUpBtn  = findViewById(R.id.signupBtn);
+        signUpBtn.setOnClickListener(v -> {
+            Toast.makeText(MainActivity.this, "Student Register, Please login", Toast.LENGTH_LONG).show();
+        });
+
     }
 }

@@ -89,7 +89,7 @@
             android:background="@android:color/darker_gray"
             android:padding="1dp">
             <TextView
-                android:layout_column="1"
+
                 android:text="Name"
                 android:padding="5dp"
                 android:background="@android:color/white"/>
@@ -101,7 +101,7 @@
 
         <TableRow>
             <TextView
-                android:layout_column="1"
+
                 android:text="Ranjan Thapa"
                 android:padding="5dp"
                 android:background="@android:color/white"
@@ -115,14 +115,14 @@
 
         <TableRow>
             <TextView
-                android:layout_column="1"
+
                 android:text="Lionel Andress Messi"
                 android:padding="5dp"
                 android:background="@android:color/white"
                 android:layout_margin="1dp"/>
             <TextView
                 android:text="Inter Miami, USA"
-                android:padding="5dp"
+            android:padding="5dp"
                 android:background="@android:color/white"
                 android:layout_margin="1dp"/>
         </TableRow>
