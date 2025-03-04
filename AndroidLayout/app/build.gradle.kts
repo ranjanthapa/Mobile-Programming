@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.signup"
+    namespace = "com.example.androidlayout"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.signup"
+        applicationId = "com.example.androidlayout"
         minSdk = 21
         targetSdk = 34
         versionCode = 1
@@ -33,8 +33,7 @@ android {
 }
 
 dependencies {
-    implementation("androidx.activity:activity:1.9.0")
-
+    implementation("androidx.activity:activity:1.9.1")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
